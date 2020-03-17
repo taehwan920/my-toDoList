@@ -53,8 +53,8 @@ input{
     transition: 1s ease-in-out;
 }
 
-input:focus{
-    width: 45em;
+.input:focus{
+    width: 40em;
     outline: none;
     transition: 1s ease-in-out;
 }
@@ -66,10 +66,13 @@ button{
     border-bottom: 2.5px solid black;
 
     background: none;
+
+    opacity: 0;
+
+    transition: 1s ease-in-out;
 }
 
 .list-board{
-    height: 30em;
     background : red;
     display: flex;
     justify-content: space-between;
