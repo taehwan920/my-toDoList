@@ -1,5 +1,6 @@
 
 .list-board{
+    height: 5em;
     background : red;
     display: flex;
     justify-content: space-between;

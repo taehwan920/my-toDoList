@@ -17,19 +17,21 @@ input, button{
 input{
     width: 10em; 
 
+    margin-left: 40%;
+
     border: none;
     border-bottom: 2.5px solid black;
 
     background: none;
 
-
-    transition: 1s ease-in-out;
+    transition: 0.9s ease-in-out;
 }
 
 .input:focus{
-    width: 40em;
+    width: 50em;
+    margin-left : 0;
     outline: none;
-    transition: 1s ease-in-out;
+    transition: 0.9s ease-in-out;
 }
 
 button{
@@ -42,5 +44,9 @@ button{
 
     opacity: 0;
 
-    transition: 1s ease-in-out;
+    transition: 0.9s ease-in-out;
+}
+
+button:focus{
+    outline: none;
 }
