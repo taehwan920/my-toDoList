@@ -6,21 +6,25 @@ main{
     height: 5em;
 
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
+    
+    border-radius : 50em;
+
+    background-color: rgba(0, 0, 0, 0.4);
 }
 
 input, button{
-    height: 3em;
+    
+    border: none;
+    border-bottom: 2.5px solid black;
 }
 
 input{
     width: 10em; 
+    height: 3em;
 
-    margin-left: 40%;
-
-    border: none;
-    border-bottom: 2.5px solid black;
+    margin-left: 30%;
 
     background: none;
 
@@ -28,23 +32,25 @@ input{
 }
 
 .input:focus{
-    width: 50em;
-    margin-left : 0;
+    width: 45em;
+    margin-left : 1em;
     outline: none;
     transition: 0.9s ease-in-out;
 }
 
 button{
     width: 5em;
-
-    border: none;
-    border-bottom: 2.5px solid black;
+    height: 3.35em;
 
     background: none;
 
     opacity: 0;
 
     transition: 0.9s ease-in-out;
+}
+
+button:hover{
+    cursor: pointer;
 }
 
 button:focus{

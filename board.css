@@ -3,6 +3,7 @@
     height: 5em;
     background : red;
     display: flex;
-    justify-content: space-between;
+    flex-flow: column;
+    justify-content: flex-start;
     align-items: center;
 }
