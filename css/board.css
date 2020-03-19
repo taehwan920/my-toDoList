@@ -1,9 +1,27 @@
 
 .list-board{
-    height: 5em;
-    background : red;
+    max-height: 20em;
+    min-height: 5em;
+    margin-top: 20px;
+
     display: flex;
     flex-flow: column;
-    justify-content: flex-start;
-    align-items: center;
+    justify-content: center;
+    align-items: flex-start;
+
+    border-radius: 15px;
+    background : rgba(0, 0, 0, 0.4);
+}
+
+.to-do{
+    max-width: 45em;
+    height: 1.5em;
+    margin-top: 15px;
+    margin-left: 20px;
+
+    line-height: 1.5em;
+}
+
+.to-do:last-child{
+    margin-bottom: 15px;
 }

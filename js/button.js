@@ -6,8 +6,16 @@ function button() {
     const createDiv = document.createElement('div')
     const addContent = document.createTextNode(submitted);
 
-    createDiv.appendChild(addContent);
-    createDiv.setAttribute("class", "to-do");
-    board.appendChild(createDiv);
-    input.value = '';
+    let HowMany = board.childElementCount
+
+    if (HowMany == 5) {
+        input.value = '';
+    } else {
+        createDiv.appendChild(addContent);
+        createDiv.setAttribute("class", "to-do");
+        board.appendChild(createDiv);
+        input.value = '';
+    };
 };
+
+

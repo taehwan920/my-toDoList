@@ -4,7 +4,8 @@ main, .list-board{
 
 main{
     height: 5em;
-
+    margin: 0;
+    
     display: flex;
     justify-content: space-around;
     align-items: center;
